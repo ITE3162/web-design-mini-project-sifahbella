@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Robot', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+}
+nav{
+    text-align: right;
+    float: right;
+    padding-right: 40px;
+    
+}
+nav ul il a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family:'Arial Rounded MT Bold'; 
+    padding: 18px 18px;
+    font-size: 30px;
+
+}
+.logo{
+    width: 80px;
+    height: 200px;
+}
+.avatar{
+    width: 100%;
+    height: 900px;
+    background-image:url('Background.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.par1{
+    font-family:'Blackadder ITC';
+    font-size: 80px;
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    top: 660px;
+
+}
+.par2{
+    font-family:'Arial Rounded MT Bold';
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    top: 650px;   
+}
+.design p{
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 40px;
+    text-align: center;
+}
+.picture{
+    text-align: center;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 100px;
+}
+.pic{
+    position: relative;
+    height: 500px;
+    cursor: pointer;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+}
+.pic img:hover{
+    transform: translateY(-20px);
+}
+h1{
+ text-align: start;
+ font-size: 20px;
+}
+.ifoto{
+    float: right;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.about{
+    padding-right: 60px;
+}
+.form{
+    text-align: center;
+}
+.form input[type="text"] , [type="mail"]{
+    border: none;
+    height: 30px;
+    width: 300px;
+    border: 2px solid black;
+
+}
+.form input[type="number"]{
+    border: none;
+    height: 110px;
+    width: 300px;
+    border: 2px solid black;
+
+}
+.form input[type="submit"]{
+    border: none;
+    height: 40px;
+    width: 90px;
+    border: 2px solid black; 
+}
+.links nav ul il{
+    text-align: center;
+    text-decoration: none;
+}
+.links nav ul il a{
+    text-align: center;
+    padding: 18px 18px;
+    text-align: center;
+    position: relative;
+    right: 550px;
+    top: 30px;
+}
+.links nav ul il a img{
+    width: 60px;
+    height: 60px;
+    
+}
+.links{
+    text-align: center;
+}
+
